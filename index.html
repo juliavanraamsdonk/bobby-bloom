@@ -77,6 +77,37 @@
             text-align: center;
             padding: 20px;
         }
+        .store {
+            margin: 40px 0;
+        }
+        .store-item {
+            background: white;
+            padding: 15px;
+            margin: 10px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .store-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .store-item h3 {
+            color: #399834;
+        }
+        .store-item button {
+            background-color: #F97639;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin-top: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .store-item button:hover {
+            background-color: #d6642d;
+        }
     </style>
 </head>
 <body>
@@ -88,6 +119,7 @@
     <nav>
         <a href="#about">About</a>
         <a href="#features">Features</a>
+        <a href="#store">Store</a>
         <a href="#app">Our App</a>
         <a href="#contact">Contact</a>
     </nav>
@@ -112,6 +144,30 @@
                 <div class="feature">
                     <h3>Gardening Tools</h3>
                     <p>Pick up gardening supplies, including compost, from our vending machines.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="store" class="store">
+            <h2>Store</h2>
+            <div class="features">
+                <div class="store-item">
+                    <img src="vegetable-box.jpg" alt="Vegetable Box">
+                    <h3>Vegetable Box</h3>
+                    <p>Fresh, seasonal vegetables delivered to your door.</p>
+                    <button>Buy Now - €15.99</button>
+                </div>
+                <div class="store-item">
+                    <img src="compost-bag.jpg" alt="Compost Bag">
+                    <h3>Compost Bag</h3>
+                    <p>Premium compost for your garden.</p>
+                    <button>Buy Now - €5.99</button>
+                </div>
+                <div class="store-item">
+                    <img src="gardening-tools.jpg" alt="Gardening Tools">
+                    <h3>Gardening Tools</h3>
+                    <p>High-quality tools for all your gardening needs.</p>
+                    <button>Buy Now - €25.99</button>
                 </div>
             </div>
         </section>
